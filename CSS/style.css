@@ -42,6 +42,7 @@ nav
     opacity: 140%;
    
     color:rgb(6, 47, 88);
+    box-shadow:  4px 4px 40px black;
 
 }
 .nav-abt-btn
@@ -78,9 +79,74 @@ nav
     width: auto;
     padding: 4%;
 }
+
+.big-hdr-name
+{
+    text-align: center;
+    color:aquamarine ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-shadow: 1px 1px 6px rgb(58, 57, 57);
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+.experience-div-container
+{
+    width:70%;
+    background-color: white solid;
+    padding: 5%;
+}
+.experience-div
+{
+    width:70%;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 15px;
+    padding: 5%;
+    margin-left: 40%;
+    border-radius: 3%;
+}
+.experience-div:hover
+{
+    box-shadow: 2px 2px 40px;
+
+}
+/* Heading */
+.hd-3
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    text-align: center;
+}
+/* Text */
+.experience-text
+{
+    width: 100%;
+    text-align: left;
+    font-size:18px;
+}
 /* Images*/
 .img
 {
     border-radius: 4%;
     width:100%;
+}
+footer
+{
+    width:100%;
+    height: 100px;
+    box-shadow: 2px 2px 40px black;
+    background-image: linear-gradient(rgb(160, 158, 240),rgb(109, 173, 209),rgb(117, 184, 218));
+}
+@keyframes identifier {
+    from{background-image:linear-gradient(rgb(243, 249, 196),rgb(167, 226, 206))}
+    to{background-image:linear-gradient(rgb(161, 169, 221),rgb(113, 111, 245))}
+
+
+}
+.footer-text
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }

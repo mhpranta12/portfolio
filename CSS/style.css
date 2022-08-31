@@ -15,11 +15,12 @@ nav
     align-content: left;
     text-align: left;
     background-color: transparent;
-    margin: 3%;
+    margin: 2%;
     padding: 2%;
     opacity: 80%;
     cursor: pointer;
     float: left;
+    flex-direction: row;
 }
 .nav-btn-sc:hover
 {
@@ -28,6 +29,7 @@ nav
 }
 .nav-btn
 {
+    width:1%;
     opacity: 80%;
     margin: 1%;
     padding-right: 2%;
@@ -40,9 +42,10 @@ nav
 .nav-btn:hover
 {
     opacity: 140%;
-   
+    transform: translateZ(0);
     color:rgb(6, 47, 88);
     box-shadow:  4px 4px 40px black;
+    border-bottom: 100px black;
 
 }
 .nav-abt-btn
@@ -68,6 +71,7 @@ nav
 .svg-sc
 {
     text-align: center;
+    margin-left: 5%;
 }
 .first-sc
 {
@@ -76,8 +80,9 @@ nav
 .img-container
 {
     text-align: right;
+    display: flex;
     width: auto;
-    padding: 4%;
+    padding: 6%;
 }
 
 .big-hdr-name
@@ -120,6 +125,17 @@ nav
     text-align: center;
 }
 /* Text */
+.nav-btn-txt
+{
+    width: 2%;;
+}
+.big-text-name
+{
+    text-align: center;
+    width: 100%;
+    background-image: url('/coding_logo.png');
+    animation: name 5s timing-function 2s iteration-count right fill-mode;
+}
 .experience-text
 {
     width: 100%;
@@ -131,6 +147,15 @@ nav
 {
     border-radius: 4%;
     width:100%;
+}
+.casual-img
+{
+    width: 40%;
+}
+.img-big-logo
+{
+    width: 42%;
+    margin-right: 18.5%;
 }
 footer
 {
@@ -150,3 +175,4 @@ footer
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+

@@ -32,21 +32,22 @@ nav
     width:1%;
     opacity: 80%;
     margin: 1%;
-    padding-right: 2%;
+    padding: 1%;
     text-decoration: none;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     color:rgb(122, 170, 217);
+    border-radius: 5%;
 }
 .nav-btn:hover
 {
     opacity: 140%;
     transform: translateZ(0);
-    color:rgb(6, 47, 88);
+    /*color:rgb(6, 47, 88); */
     box-shadow:  4px 4px 40px black;
     border-bottom: 100px black;
-
+    text-decoration: underline 2px;
 }
 .nav-abt-btn
 {
@@ -127,7 +128,7 @@ nav
 /* Text */
 .nav-btn-txt
 {
-    width: 2%;;
+    width: 2%;
 }
 .big-text-name
 {

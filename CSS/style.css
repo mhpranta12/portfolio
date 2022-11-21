@@ -124,6 +124,8 @@ nav
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
     text-align: center;
+    opacity: 80%;
+    text-shadow: 1px 0px 1px rgb(0, 0, 1);
 }
 /* Text */
 .nav-btn-txt
@@ -143,6 +145,13 @@ nav
     text-align: left;
     font-size:18px;
 }
+.marquee
+{
+    color: blue;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* Images*/
 .img
 {

@@ -151,7 +151,13 @@ nav
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* Paragraph  */
+.about-p
+{
+    width: 1300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+}
 /* Images*/
 .img
 {
@@ -166,6 +172,19 @@ nav
 {
     width: 42%;
     margin-right: 18.5%;
+}
+.circle-image
+{
+    shape-outside: circle(50%);
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 20%;
+}
+/* List  */
+.i-area-list
+{
+    width: 580px;
 }
 /* footer
 {

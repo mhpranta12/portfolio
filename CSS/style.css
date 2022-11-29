@@ -155,6 +155,7 @@ nav
 .about-p
 {
     width: 1300px;
+    align-items: justify;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:medium;
 }
@@ -175,11 +176,15 @@ nav
 }
 .circle-image
 {
-    shape-outside: circle(50%);
+    shape-outside: circle(70%);
     height: 200px;
     width: 200px;
     float: left;
     border-radius: 20%;
+}
+.certificate-image
+{
+    width: 80%;
 }
 /* List  */
 .i-area-list

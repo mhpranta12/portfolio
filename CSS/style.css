@@ -33,12 +33,14 @@ nav
     opacity: 80%;
     margin: 1%;
     padding: 1%;
+    padding-right: 1.5%;
     text-decoration: none;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     color:rgb(122, 170, 217);
     border-radius: 5%;
+    scroll-behavior: smooth;
 }
 .nav-btn:hover
 {
@@ -160,6 +162,11 @@ nav
     font-size:medium;
 }
 /* Images*/
+.nav-btn-img
+{
+    height: 30px;
+    width: 30px;
+}
 .img
 {
     border-radius: 4%;

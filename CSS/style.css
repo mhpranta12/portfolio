@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /*Nav Bar*/
 nav
 {
@@ -175,6 +178,7 @@ nav
 .casual-img
 {
     width: 40%;
+    border-radius: 30%;
 }
 .img-big-logo
 {

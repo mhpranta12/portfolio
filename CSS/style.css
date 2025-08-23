@@ -1,6 +1,18 @@
 html{
     scroll-behavior: smooth;
 }
+/* Utilities */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*Nav Bar*/
 nav
 {
@@ -9,6 +21,7 @@ nav
     height: 13%;
     position: fixed;
     z-index: 40;
+    animation: fadeInUp 4s ease forwards; /* applies automatically */
 }
 /* Sections */
 .nav-btn-sc
@@ -24,6 +37,8 @@ nav
     cursor: pointer;
     float: left;
     flex-direction: row;
+    animation: fadeInUp 4s ease forwards;
+
 }
 .nav-btn-sc:hover
 {
@@ -179,12 +194,13 @@ nav
 .casual-img
 {
     width: 40%;
-    /* border-radius: 30%; */
+    animation: fadeInUp 4s ease forwards;
 }
 .img-big-logo
 {
     width: 42%;
     margin-right: 18.5%;
+    animation: fadeInUp 4s ease forwards;
 }
 .circle-image
 {

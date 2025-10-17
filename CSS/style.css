@@ -12,6 +12,18 @@ html{
     transform: translateY(0);
   }
 }
+/* start hidden */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+/* when visible */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /*Nav Bar*/
 nav
@@ -143,9 +155,9 @@ nav
 .hd-3
 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
-    opacity: 80%;
+    opacity: 150%;
     text-shadow: 1px 0px 1px rgb(0, 0, 1);
 }
 /* Text */

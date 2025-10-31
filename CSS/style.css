@@ -96,6 +96,34 @@ nav
 {
     display: block;
 }
+.tech-stack-section
+{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 5%;
+    height: 15%;
+}
+.tech-stack-box
+{
+    width: 23%;
+    /* color: rgb(24, 238, 238); */
+    background-color: rgb(246, 237, 237);
+    opacity: 70%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    opacity: 75%;
+}
+.tech-stack-box:hover
+{
+    opacity: 100%;
+    cursor: pointer;
+}
 .hidden-about
 {
     display: none;
@@ -125,10 +153,6 @@ nav
     color:aquamarine ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
-    text-shadow: 1px 1px 6px rgb(58, 57, 57);
-    animation-name: identifier;
-    animation-duration: 10s;
-    animation-delay: 5s;
 }
 .experience-div-container
 {

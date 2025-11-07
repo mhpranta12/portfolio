@@ -16,7 +16,7 @@ html {
 .sectionHidden {
   opacity: 0;
   transform: translateY(30px);
-  transition: all 0.9s ease-out;
+  transition: all 1.2s ease-out;
 }
 
 /* when section is visible */
@@ -123,9 +123,19 @@ nav {
   width: 40%;
   align-items: center;
 }
-
-.hidden-about {
-  display: none;
+.interested-areas {
+  width: 85%;
+  padding: 5%;
+  margin-left: 20%;
+}
+.interested-area-box {
+  width: 70%;
+  color: rgb(21, 21, 18);
+  background-color: beige;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 1%;
+  border-radius: 2%;
 }
 
 .svg-sc {
@@ -203,6 +213,46 @@ nav {
     "Lucida Sans", Arial, sans-serif;
   font-size: medium;
 }
+/*Job Experiences*/
+
+.timeline {
+  position: relative;
+  margin-left: 40px; /* space for the line and circle */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -20px; /* position line at center of circle */
+  top: 0;
+  width: 2px; /* line thickness */
+  height: 100%; /* full height of this item */
+  background-color: #3498db; /* line color */
+}
+
+.circle {
+  position: absolute;
+  left: -29px; /* align with line */
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #3498db;
+  border-radius: 50%;
+  border: 2px solid white; /* optional: inner white border for style */
+}
+
+.content {
+  /* background-color: #f0f0f0; */
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
 /* Images*/
 .nav-btn-img {
   height: 30px;

@@ -134,10 +134,15 @@ nav {
   background-color: beige;
   text-align: center;
   padding: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 1.5%;
   border-radius: 2%;
+  box-shadow: 0 5px 10px color(rgb(94, 216, 94));
 }
-
+.interested-area-box-image {
+  width: 7%;
+  margin-right: 1%;
+  align-items: center;
+}
 .svg-sc {
   text-align: center;
   margin-left: 5%;
@@ -273,7 +278,7 @@ nav {
 }
 .circle-image {
   shape-outside: circle(70%);
-  height: 200px;
+  height: 250px;
   width: 200px;
   float: left;
   border-radius: 20%;

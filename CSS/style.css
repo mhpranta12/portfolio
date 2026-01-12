@@ -272,8 +272,12 @@ nav {
   width: 100%;
 }
 .casual-img {
-  width: 40%;
-  animation: fadeInUp 4s ease forwards;
+  width: 35%;
+  /* animation: fadeInUp 4s ease forwards; */
+}
+.company-logo {
+  margin-left: 70%;
+  width: 25%;
 }
 .img-big-logo {
   width: 42%;
